@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1738303700 source:c:\users\talel\desktop\tp\ex4\etudiant.cpp
+1738314157 source:c:\users\talel\desktop\tp\ex4\etudiant.cpp
 	"Etudiant.h"
 	"iostream"
 
 1738314148 c:\users\talel\desktop\tp\ex4\etudiant.h
 	<string>
 
-1738314135 source:c:\users\talel\desktop\tp\ex4\main.cpp
+1738314205 source:c:\users\talel\desktop\tp\ex4\main.cpp
 	<iostream>
 	"Etudiant.h"
 

@@ -12,7 +12,7 @@ int main()
     if (N1->calculMoyenne() < N2->calculMoyenne())
         cout <<" La moyenne max = "<<N2->calculMoyenne()<<endl;
     else
-        cout <<" La moyenne max =  "<<N2->calculMoyenne();
+        cout <<" La moyenne max =  "<<N1->calculMoyenne();
     cout<<" La moyenne de N1 =  "<<N1->calculMoyenne()<<endl;
     cout<<" La moyenne de N2 =  "<<N2->calculMoyenne()<<endl;
     return 0;

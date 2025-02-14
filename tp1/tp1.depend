@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1738301245 source:c:\users\talel\desktop\tp\tp1\notes.cpp
+1738316629 source:c:\users\talel\desktop\tp\tp1\notes.cpp
 	"Notes.h"
 
-1738300607 c:\users\talel\desktop\tp\tp1\notes.h
+1738316766 c:\users\talel\desktop\tp\tp1\notes.h
 
-1738301377 source:c:\users\talel\desktop\tp\tp1\main.cpp
+1738316757 source:c:\users\talel\desktop\tp\tp1\main.cpp
 	<iostream>
 	"Notes.h"
 

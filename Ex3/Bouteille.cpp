@@ -12,10 +12,10 @@ void Bouteille::fermer(){
     EstOuverte = false;
 }
 
-void Bouteille::verser_dans(Verre *v,int quantite){
+void Bouteille::verser_dans(Verre &v,int quantite){
     int nouvelleQuantite,ancienneQuantite;
-    ancienneQuantite = v->getQuantite();
+    ancienneQuantite = v.getQuantite();
     nouvelleQuantite = ancienneQuantite + quantite;
-    v->setQuantite(nouvelleQuantite);
+    v.setQuantite(nouvelleQuantite);
     this->quantite-=quantite;
 }

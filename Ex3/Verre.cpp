@@ -1,7 +1,7 @@
 #include "Verre.h"
 
-Verre::Verre(int contenance){
-    this->contenance = contenance;
+Verre::Verre(int quantite){
+    this->quantite = quantite;
 }
 
 void Verre::remplir(int quantite){

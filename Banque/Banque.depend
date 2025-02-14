@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1738301785 source:c:\users\talel\desktop\tp\banque\compte.cpp
+	"compte.h"
+	<iostream>
+
+1738312394 c:\users\talel\desktop\tp\banque\compte.h
+	<string>
+
+1739436452 source:c:\users\talel\desktop\tp\banque\main.cpp
+	<iostream>
+	<string>
+	"compte.h"
+

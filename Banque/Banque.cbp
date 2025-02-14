@@ -32,6 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="compte.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="compte.h">
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

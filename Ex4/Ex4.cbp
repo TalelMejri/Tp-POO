@@ -32,6 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Etudiant.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Etudiant.h">
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

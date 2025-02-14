@@ -32,7 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Notes.h">
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="main.cpp" />
+		<Unit filename="notes.cpp">
+			<Option target="Debug" />
+		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

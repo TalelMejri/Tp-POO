@@ -6,22 +6,23 @@ using namespace std;
 
 int main()
 {
-    Bouteille *B1;
-    Bouteille *B2;
-    B1 = new Bouteille(1000);
-    B2 = new Bouteille(1000);
+    Bouteille B1(1000);
+    Bouteille B2(1000);
 
-    Verre *V;
-    V = new Verre(20);
+    Verre V(20);
 
-    cout<<"Test Avant : "<<V->getQuantite()<<endl;
 
-    B1->verser_dans(V,15);
+    cout<<"Test Avant : "<<V.getQuantite()<<endl;
 
-    B2->verser_dans(V,5);
+    B1.verser_dans(V,15);
 
-    V->boire(V->getQuantite());
+    B2.verser_dans(V,5);
 
-    cout<<V->getQuantite();
+        cout<<"Test Apres : "<<V.getQuantite()<<endl;
+
+
+    V.boire(V.getQuantite());
+
+    cout<<V.getQuantite();
     return 0;
 }

@@ -1,6 +1,7 @@
 #ifndef BOUTEILLE_H_INCLUDED
 #define BOUTEILLE_H_INCLUDED
 #include "Verre.h"
+
 class Bouteille
 {
     private:
@@ -11,7 +12,7 @@ class Bouteille
         Bouteille(int);
         void ouvrir();
         void fermer();
-        void verser_dans(Verre *,int);
+        void verser_dans(Verre& ,int);
 };
 
 

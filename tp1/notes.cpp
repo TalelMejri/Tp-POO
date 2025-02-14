@@ -26,10 +26,10 @@ float Notes::calculNCC(){
 float Notes::calculMoyenne(){
     float moyenne;
     if (avecTP){
-        moyenne=this->calculNCC()*0.3+TP*0.2+Examen*0.4;
+        moyenne=calculNCC()*0.3+TP*0.2+Examen*0.4;
     }
     else {
-        moyenne=this->calculNCC()*0.4+Examen*0.6;
+        moyenne=calculNCC()*0.4+Examen*0.6;
     }
     return moyenne;
 }

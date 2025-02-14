@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1739528054 source:c:\users\talel\desktop\tp\tp2_ex1\main.cpp
+	<iostream>
+	"temps.h"
+
+1739528013 c:\users\talel\desktop\tp\tp2_ex1\temps.h
+
+1739528023 source:c:\users\talel\desktop\tp\tp2_ex1\temps.cpp
+	"temps.h"
+	<iostream>
+

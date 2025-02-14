@@ -32,6 +32,18 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Bouteille.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Bouteille.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Verre.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Verre.h">
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
