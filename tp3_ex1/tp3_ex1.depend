@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1740134217 source:c:\users\talel\desktop\tp\tp3_ex1\main.cpp
+	<iostream>
+	"vecteur.h"
+
+1740134517 source:c:\users\talel\desktop\tp\tp3_ex1\vecteur.cpp
+	"vecteur.h"
+	<iostream>
+
+1740133247 c:\users\talel\desktop\tp\tp3_ex1\vecteur.h
+

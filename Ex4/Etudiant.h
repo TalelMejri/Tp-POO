@@ -5,10 +5,9 @@
 using namespace std;
 class Etudiant{
 
-    private:
          string nom;
          string prenom;
-         float tab_notes[10];
+         float notes[10];
 
     public:
 
@@ -16,16 +15,16 @@ class Etudiant{
             nom="";
             prenom="";
             for(int i=0;i<10;i++){
-                tab_notes[i]=0;
+                 notes[i]=0;
             }
         }
 
-        Etudiant(string nom, string prenom, float tab_notes[10])
+        Etudiant(string nom, string prenom, float notes[10])
         {
             this->nom = nom;
             this->prenom = prenom;
             for (int i=0;i<10;i++){
-                this->tab_notes[i] = tab_notes[i];
+                this->notes[i] = notes[i];
             }
         }
 

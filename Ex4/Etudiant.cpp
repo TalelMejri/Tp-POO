@@ -3,22 +3,22 @@
 using namespace std;
 
 void Etudiant::saisir(){
-    cout<<"Saisir le nom de l'etudiant ";
+    cout<<"Tapez le nom de l'etudiant ";
     cin>>nom;
-    cout<<"Saisir le prenom de l'etudiant ";
+    cout<<"Tapez le prenom de l'etudiant ";
     cin>>prenom;
-    cout<<"Saisir ses notes "<<endl;
+    cout<<"Tapez ses notes "<<endl;
     for(int i=0;i<10;i++){
-        cin>>tab_notes[i];
+        cin>>notes[i];
     }
 }
 
 void Etudiant::afficher(){
     cout<<"Nom "<<nom<<endl;
     cout<<"Prenom "<<prenom<<endl;
-    cout<<"Les notes "<<endl;
+    cout<<" notes "<<endl;
     for (int i=0;i<10;i++){
-        cout<<tab_notes[i]<<" ";
+        cout<<notes[i]<<" ";
     }
     cout<<endl;
 }
@@ -26,7 +26,7 @@ void Etudiant::afficher(){
 float Etudiant::moyenne(){
     float som=0;
     for (int i=0;i<10;i++){
-        som+=tab_notes[i];
+        som+=notes[i];
     }
     return som/10;
 }

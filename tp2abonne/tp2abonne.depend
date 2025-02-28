@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1740131088 source:c:\users\talel\desktop\tp\tp2abonne\main.cpp
+	<iostream>
+	"abonne.h"
+
+1740131414 c:\users\talel\desktop\tp\tp2abonne\abonne.h
+	<string.h>
+	<iostream>
+
