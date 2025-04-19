@@ -1,0 +1,13 @@
+#ifndef ARTICLE_H_INCLUDED
+#define ARTICLE_H_INCLUDED
+
+class Article{
+    string nom;
+    float prix;
+public:
+    float getPrix(){return prix};
+
+
+};
+
+#endif // ARTICLE_H_INCLUDED

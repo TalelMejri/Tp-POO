@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1740739173 source:c:\users\talel\desktop\tp\tp3_ex3\main.cpp
+	"Etudiant.cpp"
+	<iostream>
+
+1740739019 c:\users\talel\desktop\tp\tp3_ex3\etudiant.h
+	<string>
+
+1740739028 c:\users\talel\desktop\tp\tp3_ex3\etudiant.cpp
+	"Etudiant.h"
+	<iostream>
+

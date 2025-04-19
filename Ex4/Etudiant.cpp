@@ -3,23 +3,26 @@
 using namespace std;
 
 void Etudiant::saisir(){
+    cout<<"ID";
+    cin>>id;
     cout<<"Tapez le nom de l'etudiant ";
     cin>>nom;
     cout<<"Tapez le prenom de l'etudiant ";
     cin>>prenom;
-    cout<<"Tapez ses notes "<<endl;
-    for(int i=0;i<10;i++){
+    //cout<<"Tapez ses notes "<<endl;
+   /* for(int i=0;i<10;i++){
         cin>>notes[i];
-    }
+    }*/
 }
 
 void Etudiant::afficher(){
+    cout<<"id"<<id;
     cout<<"Nom "<<nom<<endl;
     cout<<"Prenom "<<prenom<<endl;
-    cout<<" notes "<<endl;
+  /*  cout<<" notes "<<endl;
     for (int i=0;i<10;i++){
         cout<<notes[i]<<" ";
-    }
+    }*/
     cout<<endl;
 }
 

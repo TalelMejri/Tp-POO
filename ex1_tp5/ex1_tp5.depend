@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1744970341 source:c:\users\talel\desktop\tp\ex1_tp5\main.cpp
+	<iostream>
+	"Article.h"
+
+1744367882 c:\users\talel\desktop\tp\ex1_tp5\boutique.h
+	"Article.cpp"
+	"ArticleEnSolde.h"
+	<vector>
+
+1744969549 c:\users\talel\desktop\tp\ex1_tp5\article.h
+	<iostream>
+
+1744367845 c:\users\talel\desktop\tp\ex1_tp5\boutique.cpp
+	"boutique.h"
+	<typeinfo>
+
+1744364354 c:\users\talel\desktop\tp\ex1_tp5\article.cpp
+	"Article.h"
+
+1744367741 c:\users\talel\desktop\tp\ex1_tp5\articleensolde.h
+	"Article.h"
+
